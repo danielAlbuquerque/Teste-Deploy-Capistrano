@@ -1,7 +1,7 @@
 set :application, 'teste_deploy'
-set :repo_url, 'git@github.com:excid3/myapp.git'
+set :repo_url, 'https://github.com/danielAlbuquerque/Teste-Deploy-Capistrano.git'
 
-set :deploy_to, '/home/deploy/myapp'
+set :deploy_to, '/home/teste_deploy/myapp'
 
 set :linked_files, %w{config/database.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
